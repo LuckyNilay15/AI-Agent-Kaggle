@@ -49,6 +49,59 @@ Owning--> base price+ token usages.
 buy402 / L402 standards.-> permissionless machine-machine microtransactions.
 Mechanism:-
 
+Orchestrator-----> Specialist agent  
+            <-----
+           (402)error 
+
+--------------------->
+Lightning Network Invoice(For payment)
+cryptographic proof of payment token--> macaroon.
+
+A transaction is completely stateless and automated.
+
+
+Now, how to brigbe between agent output and human interfaces
+====> Generative display window---> A2UI-->Agent to User Interoperability.
+
+But what about the security if whatever action agent took is display on UI then it can expose session id token etc.
+
+
+Composer---> writes down standardized intent in the form of JSON and client side orchestrator (React, Angular, etc)takes that and display. 
+
+
+Spatial layout + Data Bindings.
+
+1. LLM generates UI-> intent-driven-> Two UI Agent SDK
+2. Tool as template -> deterministic-> fixed ATUI JSON template with empty data bindings.(layout hardcoded)-> guarantees consistency.
+Linear chat history---> 
+
+Read-only operations---> actions with real-world financial implications.
+Global supply chain and transaction network.
+==> UCP -> universal commerce protocol-> universal menu transalator -> all thge discovery and ordering logic etc.
+
+AP2 -> Agent Payments protocol=> mandate(rule) + handshake.
+
+cryptographic rule on our physical device--> mandate.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
