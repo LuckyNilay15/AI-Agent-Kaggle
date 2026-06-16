@@ -1,0 +1,63 @@
+Agentic Engineering:-
+
+Agent= Model + harness
+
+Factory model-> the output is the system that produces the code.
+
+Low-levarage conductor vs high level orchestrator:-
+
+Universal plug:- MCP -> Model Context Protocol
+
+Model ---> MCP Protocol----> tool
+
+MCP :- standard transport
+
+1. stdio-> direct process to process communication on the local machine with zero network overhead.
+2. If tools hosted somewhere else then use SSE -> Server Sent Events over HTTP
+
+Discovery + configuration + connection.
+
+Discovery--> search
+confiration-> scope and authentication via env
+connection-> handshake + tools available
+
+Security:- Model Armor
+-> It inspects the data flow and prevent malicious actions.
+
+Agent's cognitive load---> attention dilution should be minimum + context window.
+Solution:
+Use RAG for dynamically load the tools load , use , drop.
+
+Debugging:- MCP Inspector Tool-> inspect the raw JSON RPC packets, standardized messages, fix the pipeline logic.
+
+Monolithic ceiling:- The agent crashes when the number of tools exceeds beyond the context window.
+
+Monolithic---> Microservices.
+
+Distribute the workload across specialized sub-agents.
+
+Bounded and unbounded domain.
+tool+ bounded domain---> passive instrument.
+AI specialist-> unbounded domain --> collaborative partner ---> back and forth communication.
+
+GOTO problem:- bounded domain 
+So, we need a separate protocol that allows collaborative routing-> A2A(agent-to-agent) interaction.
+
+Orchestrator read their agent card.
+
+Owning--> base price+ token usages.
+buy402 / L402 standards.-> permissionless machine-machine microtransactions.
+Mechanism:-
+
+
+
+
+
+
+
+
+
+
+
+
+

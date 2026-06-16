@@ -1,0 +1,63 @@
+Vibe coding and agentic engineering.
+
+Context engineering.
+6 steps:-
+1. Instructions which define agents core boundaries and persona.
+2. Knowledge-> architectural diagrams, API docs, style guide etc.(About the environment and the world its working around).
+3. Memory-> short term session logs + long term projects goals.
+4. Examples
+5. Tools-> apis,clis,file system -> AI allowed to touch.
+6. Guardrails-> interceptors-> blocking some unwanted/ dangerous actions like deleting etc.
+
+How to give context and separate data into categories.
+
+1. Differentite btw Static context and dynamic context.
+
+Context window + attention mechanism.
+
+Dynamic content--> Build using Agent skills. -> Instead of giving all the context at once, we give it a lightweight menu of skills.
+
+When agent need database task , it loads schema and tables dynamically do its job and puts that away.
+
+Shift is toward the outer edges of the SDLC cycle
+towards the architecture and verification.
+
+1. Requirement-> static document --> product manger to developer.
+
+A rough prototype
+
+2. Testing -> not just final output but also the trajectory.
+
+Factory Model:-
+Not about final output but about the system the factory that produces the code.
+
+Agent= Model + harness.
+      (10%)
+
+Harness:-
+
+1. Sandboxes-> isolated environment where AI can run and execute the code which it wrote.
+
+2. Orchestration logic:- Brain which route a massive task to speciallised sub-agents.
+
+3. Observability infrastructure -> logs, execution traces, cost metering.
+
+Way:-
+Optimise context , middleware translation and tools definition.
+
+Most agent faliure are just configuration failures.
+vague rule, poorly defined tools, missing guardrails.
+Configuration as Code.
+
+conductor and orchestrator.
+
+conductor -> line by line iteration.
+orchetrator-> asynchronous high level delegation.
+
+context engineering + trajectory evaluation + harness design.  
+Intent is the new interface.
+
+
+
+ 
+ 
